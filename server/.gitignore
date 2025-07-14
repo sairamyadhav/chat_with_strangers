@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations (except __init__.py)
+**/migrations/*.py
+!**/migrations/__init__.py
+**/migrations/*.pyc
+
+# Django SQLite database
+db.sqlite3
+
+# Django specific
+*.log
+*.pot
+*.mo
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Pipenv
+Pipfile.lock
+
+# mypy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# JetBrains IDEs
+.idea/
+
+# Test output
+nosetests.xml
+test_*.log
+
+# Docker
+*.pid
+*.seed
+*.bak
+*.swp
+
+# Local apps cache
+*.db
+
+# Node (if frontend is included in same repo)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Others
+*.log
